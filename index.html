@@ -56,6 +56,25 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+
+		<!-- Facebook Pixel Code -->
+			<script>
+				!function(f,b,e,v,n,t,s)
+				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+				if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+				n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t,s)}(window, document,'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+				fbq('init', '2103363353103504');
+				fbq('track', 'PageView');
+			</script>
+			<noscript><img height="1" width="1" style="display:none"
+				src="https://www.facebook.com/tr?id=2103363353103504&ev=PageView&noscript=1"
+			/></noscript>
+			<!-- End Facebook Pixel Code -->
+
 	</head>
 	<body>
 		<a class="skip-main" href="#content">Skip to main content</a>
@@ -821,12 +840,19 @@
 								<img src="./img/about-floors/elementsbar.png" alt="bar">
 							</div>
 							<!-- <h2 class="openingdate">Fourth Floor <br>Opening May 24th</h2> -->
-							<p>
+							<!-- <p>
 								One of the city's few upper floor bars, ELEMENTS Bar & Lounge is a sophisticated destination bar serving an extensive range of cocktails, fine wines and whiskies in a luxurious, intimate setting.  A special menu designed for the lounge provides a selection of inviting options designed to enjoy with drinks.
-							</p>
+							</p> -->
 							<!-- <div class="container-btn-floor-menu">
 								<a href="#modal-menu-floor-2" class="btn-one65 btn-floor-menu inline">Menu</a>
 							</div> -->
+
+							<div class="container-btn-floor-menu">
+								<a href="#modal-menu-floor-2" class="btn-one65 btn-floor-menu inline">Menu</a>
+								<a href="#modal-menu-floor-2-info" class="btn-one65 btn-floor-menu inline">Info</a>
+							</div>
+
+
 							<ul class="psw-lightbox-gallery" data-pswg-unique-name="floor-3">
 							  
 								<li>
@@ -1060,10 +1086,48 @@
 			</div>
 			<!-- Elements -->
 			<div id="modal-menu-floor-2" style="display:none;" tabindex="-1" role="dialog" aria-hidden="true">
-				<h2>Menu - Floor 2</h2>
-				<h3>LOUNGE</h3>
-				<p>Quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. <a href="http://humaan.com" target="_blank">Cras ultricies mi eu turpis</a> hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing.</p>
+				<h2>Elements</h2>
+				
+				<p><a href="menus/elements/elementshighteamenu.pdf" target="_blank" class="btn-one65 btn-floor-menu pdfmenus">High Tea</a>
+					<a href="menus/elements/elementscocktailmenu.pdf" target="_blank" class="btn-one65 btn-floor-menu pdfmenus">Cocktail</a>
+					<a href="menus/elements/elementsdinnermenu.pdf" target="_blank" class="btn-one65 btn-floor-menu pdfmenus">Dinner</a>
+					<p class="blackfont"><a href="accessiblemenus">Accessible Menus Available</a></p>
+						</div>
+
+			<!-- Elements Info -->
+			<div id="modal-menu-floor-2-info" style="display:none;" tabindex="-1" role="dialog" aria-hidden="true">
+				<h2>Elements</h2>
+				<p>
+					One of the city's few upper floor bars, ELEMENTS Bar & Lounge is a sophisticated destination bar serving an extensive range of cocktails, fine wines and whiskies in a luxurious, intimate setting. A special menu designed for the lounge provides a selection of inviting options designed to enjoy with drinks.
+				</p>
+				<h3>Hours of Operation</h3>
+				<p>
+					<strong>Monday-Friday</strong><br> 
+					Open from 11:30AM to Midnight<br>
+					LUNCH & HIGH TEA: 11:30AM - 5PM<br>
+					DINNER 5:30PM - 10:30PM<br>		
+					
+					<strong>Saturday</strong><br> 
+					Open from 10:30AM to Midnight<br>
+					HIGH TEA: 11:30AM - 5PM <br>
+					DINNER 5:30PM - 10:30PM<br>			
+
+					<strong>Sunday</strong> <br>
+					Open from 10:30AM to 4PM<br>
+					BRUNCH: 10:30AM - 2:30PM <br>
+					HIGH TEA: 11:30AM - 4PM<br>		
+				</p>
+				<h3>Phone</h3>
+				<p>
+					<a href="tel:+1(415)814-8888">+1(415)814-8888</a>
+				</p>
+				<h3>Corkage Fee</h3>
+				<p>
+					$25 for first two 750ml. $50 for additional 750ml equivalent. 
+				</p>
 			</div>
+
+			
 			<!-- O' -->
 			<div id="modal-menu-floor-3" style="display:none;" tabindex="-1" role="dialog" aria-hidden="true">
 				<h2>O' by Claude Le Tohic</h2>
